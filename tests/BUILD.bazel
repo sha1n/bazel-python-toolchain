@@ -1,0 +1,8 @@
+load("//tools/python:py3_macros.bzl", "py3_test")
+
+py3_test(
+    name = "toolchain_test",
+    srcs = [
+        "toolchain_test.py",
+    ],
+)
